@@ -1,9 +1,3 @@
--- ------------------------------------------------------------
--- BetterMe Habit Tracking System - Database Schema
--- Course: CYB325 - Web Application Development
--- ------------------------------------------------------------
-
-
 CREATE DATABASE IF NOT EXISTS betterme
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
@@ -48,4 +42,5 @@ CREATE TABLE IF NOT EXISTS habit_checkins (
     -- منع تسجيل نفس اليوم أكثر من مرة
     UNIQUE KEY unique_checkin (habit_id, checkin_date)
 ) ENGINE=InnoDB;
+
 
