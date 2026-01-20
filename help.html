@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BetterMe – Help & FAQ</title>
+  <meta name="description" content="Frequently asked questions and guidance on using BetterMe.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="help-page">
+  <header class="app-header">
+    <div class="container">
+      
+      <a href="home.php" class="brand"><strong>BetterMe</strong>
+      </a>
+
+      <nav class="main-nav">
+          <a href="help.html"class="btn btn-primary">Help</a>
+          <a href="login.php" class="btn btn-primary">Log In</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!--section 1 -->
+    <section class="hero">
+      <div class="container">
+        <h1>Help & FAQ</h1>
+        <p class="subtitle">Answers to common questions and tips to get the most out of BetterMe.</p>
+      </div>
+    </section>
+
+    <!--section 2 -->
+    <section class="container page-section">
+      <div class="faq">
+        <details>
+          <summary>How do I create my first habit?</summary>
+          <p>Go to the <a href="onboarding.php">habit setup</a> page, enter a name, choose 30/60/90 days, select daily or weekly tracking, and tap <em>Save</em>.</p>
+        </details>
+
+        <details>
+          <summary>Where can I see all my habits?</summary>
+          <p>Open the <a href="dashboard.php">dashboard</a> for a quick overview. Each habit has a card with progress, streak, and a quick <em>Check in</em> button.</p>
+        </details>
+
+        <details>
+          <summary>How do streaks work?</summary>
+          <p>Streaks increase when you log consecutive days (or weeks) without missing. Missing a day (or week) resets the streak.</p>
+        </details>
+
+        <details>
+          <summary>Can I edit or delete a habit?</summary>
+          <p>Yes. Open the habit’s <a href="habit.php">details page</a> and use <em>Edit Habit</em> or <em>Delete Habit</em> in the Danger Zone section.</p>
+        </details>
+
+        <details>
+          <summary>Daily vs. weekly tracking—what should I choose?</summary>
+          <p>Choose daily for small, frequent actions. Choose weekly for goals completed once per week.</p>
+        </details>
+
+        <details>
+          <summary>Do I get reminders?</summary>
+          <p>In this prototype, reminders are just a toggle. You can add real notifications later with JavaScript and notifications APIs.</p>
+        </details>
+
+        <details>
+          <summary>My progress isn’t saving—why?</summary>
+          <p>This static prototype doesn’t store data yet. You can add persistence with <code>localStorage</code> or a backend later.</p>
+        </details>
+      </div>
+    </section>
+
+    <!--section 3 -->
+    <section class="how-it-works">
+      <div class="container">
+        <h2>How It Works</h2>
+        <ol>
+          <li>Create a habit in the <a href="onboarding.php">setup page</a>.</li>
+          <li>Track it from the <a href="dashboard.php">dashboard</a> with quick check-ins.</li>
+          <li>Open the <a href="habit.php">habit details</a> to see streaks and visual progress.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+
+  <!--footer -->
+  <footer class="app-footer">
+    <div class="container">
+      <p>© 2025 BetterMe</p>
+    </div>
+  </footer>
+</body>
+</html>
+
