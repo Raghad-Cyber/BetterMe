@@ -11,6 +11,17 @@ The system helps users build habits, track progress, and stay consistent using d
 - Streak and progress calculation
 - Simple and clean user interface
 
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](screenshots/login.png)
+
+### ➕ Create Habit
+![Create Habit](screenshots/create-habit.png)
+
+### 📊 Dashboard
+![Dashboard](screenshots/dashboard.png)
+
 ## Technologies Used
 - PHP
 - MySQL
